@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "55f2204c-b21d-49da-b7cc-3ab7d19ab61f",
+            "Value": {
+                "id": "4dff80d9-502c-46b8-8b25-4eb6175ac488",
+                "resourcePath": "sprites\\s_healthbar\\s_healthbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cdd2feb-366a-4772-9520-18ad42a54be1",
             "Value": {
                 "id": "2121ff69-1cd1-4539-b33f-1281fe89cfaa",
@@ -212,6 +220,14 @@
                 "id": "8b63c634-dbdf-4a51-94f9-2898282b5c8b",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8dcef5dc-1401-4ef0-bd09-22494310bdd6",
+            "Value": {
+                "id": "4ad02666-1a7b-471d-b0d1-89fca8603098",
+                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -308,6 +324,14 @@
                 "id": "521707b4-c80d-4a8a-a040-8cfe9d12c733",
                 "resourcePath": "sprites\\Dirt_spr\\Dirt_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0fd9c85-05c2-496f-91d3-fd471a4acda0",
+            "Value": {
+                "id": "e5c29e35-460f-4afb-98c5-815b5133df0a",
+                "resourcePath": "objects\\Mana\\Mana.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 speed_player = 30;
 aspeed_h = 3;
-speed_jump = 30;
+speed_jump = 40;
 jump = false;
 background_number = 0;
 weather = 1;
@@ -49,18 +49,24 @@ else{
 		object_set_visible(Break, true);
 		object_set_visible(Bridge, false);
 		}
-		
-		
-		
-	 
-		
    }
 }
 
-if (damage == true){
-	room_restart();
+if (damage == true and timer_damage > 0 ){
+	max_health -= 0.1;
+	
+	if (max_health < -3){
+		game_restart()
+	}
 }
 
 if (timer_damage > 0){
 	--timer_damage;	
+}
+else {
+	damage = false;
+}
+
+if (fall_in_break){
+	
 }
