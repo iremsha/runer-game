@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0c5545df-e9ba-498c-87a4-996abf10efe5",
+            "Value": {
+                "id": "e187704f-6386-416d-aed0-b53e04d9be25",
+                "resourcePath": "sprites\\s_button_back\\s_button_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12bcc8b9-e6d9-4863-a1fd-b53b09ce7d05",
             "Value": {
                 "id": "c64ea38c-f80f-4965-a4ed-641184a981a6",
@@ -39,11 +47,11 @@
             }
         },
         {
-            "Key": "13d61e46-3e00-4417-8be6-3416b9cf00e1",
+            "Key": "13533833-9f02-417a-877d-7ed13ef2c4bd",
             "Value": {
-                "id": "f838804a-b765-40df-9c76-ed3fad99a607",
-                "resourcePath": "sprites\\TowerPresent\\TowerPresent.yy",
-                "resourceType": "GMSprite"
+                "id": "3d52e5b0-8535-4137-95e6-5ea232d437f5",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -52,6 +60,14 @@
                 "id": "cc347a45-329b-491d-a274-d186357bba58",
                 "resourcePath": "sprites\\Trap_spr\\Trap_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1b747d77-3ee9-4928-b932-e705f62585fd",
+            "Value": {
+                "id": "b19d8c59-9b4c-49b4-909c-4567c8c23d46",
+                "resourcePath": "objects\\o_end_game\\o_end_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -67,6 +83,22 @@
             "Value": {
                 "id": "e71954ea-ae4b-44f0-b20d-9741bc4a6a8f",
                 "resourcePath": "objects\\Player\\Player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3185846e-7ec8-401c-9635-db5590c23d54",
+            "Value": {
+                "id": "297ecc33-3041-47ed-8e68-7ccf1423c704",
+                "resourcePath": "objects\\o_info\\o_info.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3388b773-d5a1-4a80-a398-0dbc2e24bc74",
+            "Value": {
+                "id": "5eeeaebf-a872-4183-8d13-8a4fec1fc470",
+                "resourcePath": "objects\\o_score\\o_score.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -119,6 +151,14 @@
             }
         },
         {
+            "Key": "3b929316-535c-4a8d-ad25-7e19421002a5",
+            "Value": {
+                "id": "714478dc-e695-421a-9f8d-bb036d11b7fc",
+                "resourcePath": "sprites\\s_button_contolers\\s_button_contolers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "444f1a10-86ca-44fc-b87a-8ce5490695da",
             "Value": {
                 "id": "57e67751-daa8-4fcd-9231-7ed5f3b01b75",
@@ -143,6 +183,14 @@
             }
         },
         {
+            "Key": "52e8a52d-48c7-43e5-bafd-34ae311b19bf",
+            "Value": {
+                "id": "66c3264d-fe0e-485a-97a3-ade096be29b3",
+                "resourcePath": "sprites\\s_button_exit\\s_button_exit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "535b8c14-b8c8-43e0-b233-8746ab1817b5",
             "Value": {
                 "id": "103c1d26-45fa-44a0-bb92-d90b05bfcb9c",
@@ -159,11 +207,35 @@
             }
         },
         {
+            "Key": "570d6eef-6617-425b-8b27-87755335c6c5",
+            "Value": {
+                "id": "d46a1eff-28fa-4ded-8f9d-16263de34937",
+                "resourcePath": "objects\\o_name_game\\o_name_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5af31520-b08e-4b2a-a220-550260f20404",
+            "Value": {
+                "id": "cdddf72e-370b-4431-92f4-555d9cb467dd",
+                "resourcePath": "objects\\o_button_start\\o_button_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5cdd2feb-366a-4772-9520-18ad42a54be1",
             "Value": {
                 "id": "2121ff69-1cd1-4539-b33f-1281fe89cfaa",
                 "resourcePath": "sprites\\bg2\\bg2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5fb9a265-3859-4af5-9c14-b7009ee25dc8",
+            "Value": {
+                "id": "40837a1e-5b73-4fcc-8d9e-dee019e69bc2",
+                "resourcePath": "objects\\o_button_controlers\\o_button_controlers.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -202,7 +274,7 @@
             "Key": "768a7c45-003a-473d-bceb-ef7f55f96cb0",
             "Value": {
                 "id": "710003d2-9d52-4462-9061-12d0d9ad7359",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\r_game\\r_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -226,16 +298,8 @@
             "Key": "8dcef5dc-1401-4ef0-bd09-22494310bdd6",
             "Value": {
                 "id": "4ad02666-1a7b-471d-b0d1-89fca8603098",
-                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourcePath": "sounds\\sound_main\\sound_main.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "91abe045-e1a4-48ee-b3a3-b8e68837e5b4",
-            "Value": {
-                "id": "0df7ca05-a016-4fc8-b47b-2dd888575105",
-                "resourcePath": "objects\\Tower\\Tower.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -244,6 +308,14 @@
                 "id": "33a5db8d-ea95-4049-a2a1-a356c95e4da2",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "975741a3-ccfb-48e1-b056-cdb9df8041ed",
+            "Value": {
+                "id": "b93a6825-3567-4a12-a268-4cd1c4b5db71",
+                "resourcePath": "objects\\o_button_exit\\o_button_exit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -279,6 +351,14 @@
             }
         },
         {
+            "Key": "a2dd352f-fd93-4aee-83c1-2d43f8bc16b6",
+            "Value": {
+                "id": "8acee5c2-818a-41c8-bc91-6f58cd02b80e",
+                "resourcePath": "sounds\\sound_menu\\sound_menu.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "71641737-f09e-4339-bb8d-800a34db24b4",
@@ -300,6 +380,22 @@
                 "id": "5ccd7195-c14a-41e7-874f-49a15b90d153",
                 "resourcePath": "views\\ad3a7afa-4b1f-4844-911b-0f8a99ca1d27.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af86175d-08a4-42e5-9e9f-a0bdb930dfef",
+            "Value": {
+                "id": "df137b9d-2ccd-4bdd-b312-1e51e5f03dbc",
+                "resourcePath": "rooms\\r_info\\r_info.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b152858d-fb14-4e43-8fec-e7da9d8a7482",
+            "Value": {
+                "id": "b837b01d-242b-4c9f-badd-f538efc41a9d",
+                "resourcePath": "objects\\o_button_back\\o_button_back.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,10 +423,18 @@
             }
         },
         {
+            "Key": "befc7ca9-b562-4f15-af86-c22a730bb706",
+            "Value": {
+                "id": "33e56b24-79a3-4ecd-a3ba-ef760f082c7b",
+                "resourcePath": "sprites\\s_name_game\\s_name_game.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0fd9c85-05c2-496f-91d3-fd471a4acda0",
             "Value": {
                 "id": "e5c29e35-460f-4afb-98c5-815b5133df0a",
-                "resourcePath": "objects\\Mana\\Mana.yy",
+                "resourcePath": "objects\\HP\\HP.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -351,11 +455,43 @@
             }
         },
         {
+            "Key": "c329be5a-1ad8-4b92-b709-14272305ddca",
+            "Value": {
+                "id": "d7f4c4c6-d341-4223-95ca-650d9424a1b4",
+                "resourcePath": "sprites\\s_info\\s_info.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c47342e0-82e3-4928-b778-9ee3e09c53be",
+            "Value": {
+                "id": "32ca5770-aba8-47ec-a427-f6df07ecced1",
+                "resourcePath": "sprites\\s_button_start\\s_button_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cab9ce24-0019-484f-ac22-69d21d32166e",
+            "Value": {
+                "id": "ed9c874c-9b74-47a7-91e9-ce0557fa2ed8",
+                "resourcePath": "sprites\\s_background_menu\\s_background_menu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "c027fd53-c2c7-4fcb-b884-b544290ce366",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d4b38056-df24-4884-8518-e62fa10208d6",
+            "Value": {
+                "id": "68289d3c-3dac-46ff-a7b6-40f77c2eef34",
+                "resourcePath": "sprites\\s_background_empty\\s_background_empty.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -402,7 +538,7 @@
             "Key": "f77b7f45-928a-4ae8-a410-dddfbba37817",
             "Value": {
                 "id": "f1c1422c-d621-468f-91d5-cde47d60b566",
-                "resourcePath": "sprites\\bg1\\bg1.yy",
+                "resourcePath": "sprites\\s_background_game_1\\s_background_game_1.yy",
                 "resourceType": "GMSprite"
             }
         },

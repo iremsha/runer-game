@@ -3,7 +3,7 @@
 
 image_speed = 0;
 x -= Player.speed_player;
-if (x - sprite_width <-1500){
+if (x - sprite_width <-1000){
 	instance_destroy();
 }
 
