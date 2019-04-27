@@ -3,5 +3,5 @@ if (Pause_spawn_trap > 0){
 }
 
 if (keyboard_check_pressed(vk_escape)){
-	game_restart();
+	room_goto(r_dead_menu);
 }

@@ -1,17 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 aspeed_h = 3;
-speed_jump = 40;
+speed_jump = 60;
 jump = false;
 background_number = 0;
 weather = 1;
+
+
 
 var lay_id = layer_get_id("Background");
 var back_id = layer_background_get_id(lay_id);
 image_speed = 1
 x = 250
-
 if (image_index > 6 and !jump){
 	image_index = 0
 }
@@ -34,7 +36,7 @@ else{
    if (keyboard_check_pressed(ord("W"))){	
 		y -= speed_jump;
 		jump = true;
-		speed_h = -16;	
+		speed_h = -20;	
    }
 	
    if (keyboard_check_pressed(ord("Q"))){	
@@ -63,7 +65,7 @@ if (damage == true and timer_damage > 0 ){
 	max_health -= 0.1;
 	
 	if (max_health < -3){
-		game_restart()
+		room_goto(r_dead_menu);
 	}
 }
 
@@ -75,8 +77,5 @@ else {
 }
 
 if (fall_in_break){
-	image_index = 8;
-	max_health = -3 
-	speed_player = 0
-	fall_in_break = false
+	room_goto(r_dead_menu);
 }

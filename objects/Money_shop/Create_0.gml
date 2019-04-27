@@ -1,0 +1,1 @@
+//count_m = global.coin
