@@ -8,12 +8,17 @@ else {
 	
 
 if (Gen.Pause_spawn_trap == 0){
-	if (random(400) >= 390){
+	if (random(300) >= 270){
 		instance_create_depth(room_width+15,y-50,-2,Trap);
 	}
 
 else if (random(10) >= 8){
-		instance_create_depth(room_width+10,y-50,-2,Coin);
+		if (random(10) >= 6) {
+		instance_create_depth(room_width+10,y-25,-2,Coin);
+		}
+		else { 
+			instance_create_depth(room_width+10,y-150,-2,Coin);
+		}
 	}
 
 	else if(random(100) >= 90){
